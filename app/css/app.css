@@ -4,21 +4,6 @@
 /* Laptops, Desktops */
 /* Laptops, Desktops */
 /* Higher resolution desktops */
-
-@import url('template.css');
-
-::-webkit-scrollbar {
-	width: 6px;
-}
-
-::-webkit-scrollbar-track {
-	background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-	border-radius: 10px;
-	background: #1593d0;
-}
 html, body {
   font-size: 10px;
   overflow-y: hidden; }
@@ -27,13 +12,7 @@ p, li, a {
   font-size: 16px; }
 
 img {
-  max-width: 100%;
-  -webkit-user-drag: none;
-  -khtml-user-drag: none;
-  -moz-user-drag: none;
-  -o-user-drag: none;
-  user-drag: none;
-  }
+  max-width: 100%; }
 
 h1, .h1, .hp-subheader {
   font-family: Lato;
@@ -96,7 +75,6 @@ pre {
   font-variant: normal;
   font-weight: 400;
   line-height: 18.5714px; }
-
 
 .button, .primary-button {
   height: 50px;
